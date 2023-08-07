@@ -1,0 +1,20 @@
+// For format details, see https://aka.ms/devcontainer.json.
+{
+    "name": "BTP tools",
+    "build": {
+        "dockerfile": "../../config/btp/Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+        },
+        "codespaces": {
+        }
+    },
+    "remoteUser": "user",
+    "workspaceFolder": "/home/user",
+    "hostRequirements": {
+        "cpus": 2,
+        "memory": "4gb",
+        "storage": "32gb"
+    }
+}
